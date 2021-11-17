@@ -1,0 +1,3 @@
+export const SWITCH_FORM_STATE = "SWITCH_FORM_STATE";
+export const SUBMIT_TASK = "SUBMIT_TASK";
+export const DELETE_TASK = "DELETE_TASK";

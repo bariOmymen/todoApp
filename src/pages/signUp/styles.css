@@ -1,0 +1,39 @@
+.logcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+.form-input input {
+  padding: 6px 30px;
+  border-radius: 30px;
+}
+.submit {
+  justify-content: center;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background: rgb(55, 23, 231);
+  color: #fff;
+  border: none;
+  padding: 10px 40px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
